@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="map" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="map" left="0" right="0" top="0" bottom="0" width="384" height="384">
+		<e:layout>
+			<e:TileLayout requestedRowCount="16" requestedColumnCount="16" verticalGap="0" horizontalGap="0"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

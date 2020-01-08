@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="menu" width="1280" height="640" currentState="menu" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:my="my.*" states="menu,game,end"  width.menu="1136">
+	<my:Map id="game" includeIn="game" skinName="map" verticalCenter="0" horizontalCenter="160"/>
+	<e:Button id="btn_start" label="开始游戏" y="270" includeIn="menu" horizontalCenter="0"/>
+</e:Skin>
