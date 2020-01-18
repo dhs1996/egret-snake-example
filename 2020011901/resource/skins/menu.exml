@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="menu" width="1280" height="640" currentState="menu" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:my="my.*" states="menu,game,end"  width.menu="1136">
+	<e:Button id="btn_restart" label="重来一次" includeIn="end" horizontalCenter="0" verticalCenter="16" width="120"/>
+	<e:Button id="btn_menu" label="回到主菜单" includeIn="end" horizontalCenter="0" verticalCenter="89" width="120"/>
+	<e:Label text="Game Over" includeIn="end" y="233" horizontalCenter="0" textColor="0x2450af"/>
+	<my:Map id="game" includeIn="game" skinName="map" verticalCenter="0" horizontalCenter="160"/>
+	<e:Button id="btn_start" label="开始游戏" y="270" includeIn="menu" horizontalCenter="0"/>
+</e:Skin>

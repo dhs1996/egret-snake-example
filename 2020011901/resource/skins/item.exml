@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="item" width="24" height="24" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="ground,snake,food" >
+	<e:Rect width="24" height="24" includeIn="snake" fillColor="0x6dc100"/>
+	<e:Rect width="24" height="24" fillColor="0x967c7c" includeIn="ground,food"/>
+	<e:Rect width="16" height="16" includeIn="food" horizontalCenter="0" verticalCenter="0" fillColor="0xffffff"/>
+</e:Skin>
