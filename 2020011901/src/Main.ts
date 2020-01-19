@@ -196,7 +196,7 @@ class Main extends eui.UILayer {
     }
 
     private moveCkeck(x, y) {
-        if (x > 16 || x < 0 || y > 16 || y < 0) {
+        if (x >= 16 || x < 0 || y >= 16 || y < 0) {
             me.Event.emit('snakedie');
             return;
         }
