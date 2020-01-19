@@ -126,6 +126,7 @@ class Main extends eui.UILayer {
         this.setMapData(1, 0, 1);
         this.randFood();
         this.startGame();//计时器
+        me.Event.once('snakedie', this.gameEnd, this);
     }
 
     private initGame() {
