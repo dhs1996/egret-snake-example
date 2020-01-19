@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="touchboard" width="270" height="270" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="btn_1" top="0" horizontalCenter="0">
+		<e:Label text="↑" size="56" horizontalCenter="0" verticalCenter="0"/>
+		<e:Rect width="72" height="72" x="0" y="0" fillColor="0xe0e0e0" fillAlpha="0.4"/>
+	</e:Group>
+	<e:Group id="btn_2" bottom="0" horizontalCenter="0">
+		<e:Label text="↓" size="56" horizontalCenter="0" verticalCenter="0"/>
+		<e:Rect width="72" height="72" x="0" y="0" fillColor="0xE0E0E0" fillAlpha="0.4"/>
+	</e:Group>
+	<e:Group id="btn_3" left="0" verticalCenter="0">
+		<e:Rect width="72" height="72" x="0" y="0" fillColor="0xE0E0E0" fillAlpha="0.4"/>
+		<e:Label text="←" size="56" horizontalCenter="0" verticalCenter="0"/>
+	</e:Group>
+	<e:Group id="btn_4" right="0" verticalCenter="0">
+		<e:Rect width="72" height="72" x="0" y="0" fillColor="0xE0E0E0" fillAlpha="0.4"/>
+		<e:Label text="→" size="56" horizontalCenter="0" verticalCenter="0"/>
+	</e:Group>
+</e:Skin>
