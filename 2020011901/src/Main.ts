@@ -130,6 +130,7 @@ class Main extends eui.UILayer {
     }
 
     private initGame() {
+        this.playerCtr.direct='d';
         this.game['game'].initMap(16, 16);
         this.snake = [];
         this.snake.push({ x: 0, y: 0 });
