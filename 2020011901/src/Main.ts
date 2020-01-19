@@ -107,7 +107,7 @@ class Main extends eui.UILayer {
         }, this);
         scene['btn_restart'].addEventListener('touchTap', () => {
             scene.currentState = 'game';
-            this.initGame();
+            this.restart();
         }, this);
         scene['btn_menu'].addEventListener('touchTap', () => {
             scene.currentState = 'menu';
@@ -125,6 +125,7 @@ class Main extends eui.UILayer {
         this.setMapData(0, 0, 1);
         this.setMapData(1, 0, 1);
         this.randFood();
+        this.startGame();//计时器
     }
 
     private initGame() {
