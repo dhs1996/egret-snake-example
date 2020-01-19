@@ -228,6 +228,8 @@ class Main extends eui.UILayer {
     private speed;
     private difficulty;
     public startGame() {
+        let point: eui.Label = this.game['data_point'];
+        point.text = this.playerCtr.point.toString();
         this.speed = 500;
         this.difficulty = 99 / 100;
         if (this.timer) {
